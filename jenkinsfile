@@ -27,12 +27,3 @@ pipeline {
         }
     }
 }
-
-// Function definition
-def printBanner(stageName) {
-    echo "======================"
-    echo "     ${stageName}     "
-    echo "======================"
-}
-
-
